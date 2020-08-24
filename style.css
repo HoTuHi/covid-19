@@ -1,0 +1,166 @@
+
+html,div,h1,h2,h3,h4,h5,h6,ul,li,img {
+    margin: 0;
+    font-family: "Segoe UI"; 
+}
+
+.bg {
+    width: 1920px;
+    height: 70px;
+    background: #495f8c;
+}
+/*
+.content {
+    transition: transform .2s;
+}
+.content:hover {
+    transform: scale(1.5);
+}
+*/
+
+.head_cnt {
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 33px;
+    text-align: left;
+    color: #f25c05;
+    text-decoration: none;
+
+}
+
+.title {
+    margin: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+    color: #495f8c;
+
+}
+
+
+
+.card {
+    display: flex;
+    transition: transform .8s;
+}
+.w-card:hover{
+    transform: scale(1.1);
+}
+.w-card {
+    margin: 0 auto;
+    width: 360px;
+    height: auto;
+    border-radius: 3rem;
+    background: #fff;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+}
+.today_num {
+    display: flex;
+    margin-right: 20px;
+}
+
+.head_card {
+    font-weight: 600;
+    font-size: 30px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #f29f05;
+    margin-left: 35px;
+    margin-top: 20px;
+}
+
+.icon {
+    flex :1;
+    margin-left: 30px;
+    
+}
+
+.up {
+    flex:2;
+    margin-right: 10px;
+}
+
+#number {
+    flex:3;
+    text-align: right;
+    font-weight: bold;
+    font-size: 20px;
+/*    text-align: left;*/
+    color: #495f8c;
+    margin: 15px;
+
+}
+
+
+.head-card {
+    margin: 20px;
+    font-weight: 600;
+    font-size: 25px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #f29f05;
+
+}
+
+.detail-card {
+    margin: 0 auto;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.text-ned {
+    margin-left: 20%;
+
+    font-weight: normal;
+    font-size: 25px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #495f8c;
+
+}
+
+.num-ned {
+    margin-right: 20%;
+    font-weight: normal;
+    font-size: 25px;
+    letter-spacing: 0.03em;
+    text-align: right;
+    color: #495f8c;
+}
+
+.row-1 {
+    display: block;
+    width:50%;
+    text-align: left;
+}
+.row-2{
+    display: block;
+    width: 50%;
+    text-align: right;
+}
+
+.line-sum {
+    margin: 0 auto;
+    width: 80%;
+    height: 0px;
+    background: transparent;
+    border: 1px solid #707070;
+
+}
+
+.sum {
+    display: flex;
+    font-weight: bold;
+    font-size: 25px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #495f8c;
+    margin: 20px 40px 20px 40px;
+
+}
+
+
+main {
+    height: 1900px;
+    background-color: #fdfdfd;
+}
