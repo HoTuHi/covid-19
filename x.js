@@ -66,7 +66,7 @@ type: 'pie',
 data: {
 labels: ["Nhiễm", "Phục hồi", "Chết"],
 datasets: [{
-data: [ctry[listCountry[2]].TotalConfirmed,ctry[listCountry[2]].TotalRecovered,ctry[listCountry[2]].TotalDeaths],
+data: [ctry[listCountry[2]].TotalConfirmed-ctry[listCountry[2]].TotalRecovered-ctry[listCountry[2]].TotalDeaths,ctry[listCountry[2]].TotalRecovered,ctry[listCountry[2]].TotalDeaths],
 backgroundColor: ["#F25C05", "#495F8C", "#4D5360"],
 hoverBackgroundColor: ["#c74a02", "#3d4f75","#616774"]
 }]
